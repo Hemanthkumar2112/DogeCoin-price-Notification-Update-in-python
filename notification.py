@@ -20,5 +20,5 @@ def update(url):
 
 while True:
     numbers = update(url)
-    notification.notify(title='Dogecoin', message=numbers[0], app_name='Doge_coin_price', app_icon='C:\\Users\\hem\\Desktop\\doge (1).ico', timeout=10, toast=False)
+    notification.notify(title='Dogecoin', message=numbers[0], app_name='Doge_coin_price', app_icon='', timeout=10, toast=False)
     time.sleep(1000)
